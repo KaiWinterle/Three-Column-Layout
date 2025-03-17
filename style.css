@@ -1,0 +1,56 @@
+body {
+    background-color: #f4f4f4; /* Light gray background */
+    font-family: Arial, sans-serif; /* Basic font style */
+    color: #333; /* Dark gray text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text color */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333; /* Dark background */
+    color: white; /* White text color */
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Column Styles */
+.column {
+    width: 33.33%; /* Equal width for three columns */
+    float: left; /* Float columns to the left */
+    box-sizing: border-box; /* Include padding in width calculation */
+    padding: 15px; /* Spacing inside columns */
+}
+
+/* Add margins or padding between columns */
+.column:not(:last-child) {
+    margin-right: 10px; /* Add margin between columns */
+}
+
+/* Content Styles */
+.column h2 {
+    font-size: 24px; /* Larger font size for headings */
+    color: #4CAF50; /* Green color for headings */
+    margin-bottom: 10px; /* Spacing below headings */
+}
+
+.column p {
+    font-size: 16px; /* Standard font size for paragraphs */
+    line-height: 1.5; /* Improve readability */
+}
+
+/* Clear Floats */
+.clear {
+    clear: both;
+}
